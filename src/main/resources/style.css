@@ -1,0 +1,50 @@
+/* Styles for the Image Gallery App */
+
+/* Full Image Pane Style */
+.full-image-pane {
+    -fx-background-color: #f0f0f0; /* Light gray background */
+
+}
+
+/* Navigation Box Style */
+.hbox {
+    -fx-spacing: 10;
+}
+
+/* Thumbnail Grid Style */
+.grid-pane {
+    -fx-hgap: 20;
+    -fx-vgap: 20;
+    -fx-alignment: center; /* Center-align the thumbnails */
+}
+
+/* Thumbnail Image Style */
+.stack-pane {
+    -fx-background-color: #d9d9d9; /* Light gray background for thumbnails */
+    -fx-border-color: #666666; /* Dark gray border for thumbnails */
+    -fx-border-width: 1;
+    -fx-padding-left: 25;
+}
+
+/* Button Style */
+.button {
+    -fx-font-size: 14;
+    -fx-padding: 5 10;
+    -fx-background-color: #4CAF50; /* Green background color for buttons */
+    -fx-text-fill: #ffffff; /* White text color for buttons */
+    -fx-border-color: #45a049; /* Dark green border color for buttons */
+}
+
+/* Hover effect for buttons */
+.button:hover {
+    -fx-background-color:lightgreen; /* Darker green background color on hover */
+    -fx-text-fill: green;
+}
+
+/* Heading Style */
+.heading {
+    -fx-font-size: 18;
+    -fx-font-weight: bold;
+    -fx-fill: #333333; /* Dark gray text color for headings */
+}
+
